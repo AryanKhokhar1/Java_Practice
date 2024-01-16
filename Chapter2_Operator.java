@@ -8,6 +8,7 @@ public class Chapter2_Operator {
         System.out.println("\nArthimatic Operators");
         System.out.println(a+b+c);
         System.out.println(a%b);
+        System.out.println(4.5%2.1); // modulos operator also used in float and doubles
         System.out.println(++a);
 
         // Assignment Operators
