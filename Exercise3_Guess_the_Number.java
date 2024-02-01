@@ -6,7 +6,7 @@ class NumGuess_Game{
     int guess_number;
     String result;
     int n = 6;
-    int score;
+    int score = -1;
     NumGuess_Game(){
         Random rand = new Random();
         this.random_number = rand.nextInt(101);
@@ -23,6 +23,9 @@ class NumGuess_Game{
                 System.out.println("\nScore: "+this.Score(n));
                 break;
             }
+        }
+        if(score == -1){
+            System.out.println("\n\nYou Lose!");
         }
     }
     private String Check(int guess_number){
