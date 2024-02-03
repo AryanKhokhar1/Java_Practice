@@ -15,10 +15,14 @@ class Library{
             this.Available_Book[i] = arr[i-bydefaultbooks.length];
             // System.out.println(this.Available_Book[i]);
         }
-        System.out.println("Available Books:");
+        
+        
+    }
+    void showAvailableBooks(){
+        System.out.print("Available Books: ");
         for(String book:  this.Available_Book){
             if(book != null){
-                System.out.println(book);
+                System.out.print(book+", ");
             }
         }
     }
@@ -54,8 +58,9 @@ class Library{
 public class Exercise3_Library {
     public static void main(String[] args) {
         Library library1 = new Library("Satya Mai Jai te", "Alfaz", "Chakitsa");
-        library1.issueBook("Alfaz");
-        library1.issueBook("Ravan");
-        library1.returnBook("Alfaz");
+        library1.showAvailableBooks();
+        // library1.issueBook("Alfaz");
+        // library1.issueBook("Ravan");
+        // library1.returnBook("Alfaz");
     }
 }
