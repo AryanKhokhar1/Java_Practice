@@ -1,6 +1,7 @@
 class Cat{
+    int a = 5;
     void structure(){
-        System.out.println("4 Legs");
+        System.out.println("4 Legs"+a);
     }
     public void Voice(){
         System.out.println("Meow.. Meow..");
@@ -16,5 +17,9 @@ public class Chapter10_Inheritance extends Dog{
         Chapter10_Inheritance obj = new Chapter10_Inheritance();
         obj.Voice();
         obj.structure();
+        obj.a = 67;
+        System.out.println("Value of a="+obj.a);
+        Chapter10_Inheritance obj2 = new Chapter10_Inheritance();
+        System.out.println("Value of a="+obj2.a);
     }
 }
