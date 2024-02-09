@@ -7,7 +7,12 @@ interface Camera{
 
     // defautl method
     default void switchto4k(){
+        currentformat();
         System.out.println("Switched to 4k");
+    }
+    // Can make private method but private method can be called within interface only
+    private void currentformat(){
+        System.out.println("Current format: 1080p");
     }
 }
 interface MediaPlayer{
