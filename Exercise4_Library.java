@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 class Library{
@@ -55,7 +56,7 @@ class Library{
     }
 }
 
-public class Exercise3_Library {
+public class Exercise4_Library {
     public static void main(String[] args) {
         Library library1 = new Library("Satya Mai Jai te", "Alfaz", "Chakitsa");
         library1.showAvailableBooks();

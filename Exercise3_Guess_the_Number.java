@@ -1,4 +1,5 @@
 // Creating a Number guessing game
+
 import java.util.Random;
 import java.util.Scanner;
 class NumGuess_Game{
