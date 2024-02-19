@@ -1,12 +1,21 @@
 
 class MyThread1 implements Runnable {
     public void run(){
-        System.out.println("MyThread1 running...");
+        int n = 0;
+        while(n<10){
+            System.out.println("MyThread1 running...");
+            n++;
+        }
     }
 }
 class MyThread2 implements Runnable{
     public void run(){
-        System.out.println("Thread 2 running...");
+        int n = 0;
+        while(n<10){
+
+            System.out.println("Thread 2 running...");
+            n++;
+        }
     }
 }
 public class Chapter13_runnable {
