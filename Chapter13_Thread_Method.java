@@ -25,7 +25,6 @@ public class Chapter13_Thread_Method {
         try {
             mt1.join();
         } catch (Exception e) {
-            // TODO: handle exception
             System.out.println(e);
         }
         mt2.start();
