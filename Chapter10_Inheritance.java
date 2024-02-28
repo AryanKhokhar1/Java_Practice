@@ -1,5 +1,8 @@
 class Cat{
     int a = 5;
+    Cat(){
+        System.out.println("Cat:");
+    }
     void structure(){
         System.out.println("4 Legs"+a);
     }
@@ -8,6 +11,9 @@ class Cat{
     }
 }
 class Dog extends Cat{
+    Dog(){
+        System.out.println("Dog:");
+    }
     public void Voice(){
         System.out.println("Bohhh... Bohh..");
     }
