@@ -11,6 +11,7 @@ class NegativeDimentionException extends Exception{
 
 class Rectangle{
 
+    // throws keyword used to declare that this method can throw a particular Exception handle it
     double Area(double length, double width) throws NegativeDimentionException{
         if(length<0 || width <0){
             NegativeDimentionException child = new NegativeDimentionException();
