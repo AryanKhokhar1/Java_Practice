@@ -1,4 +1,3 @@
-```markdown
 # Java Programs Repository
 
 Welcome to the Java Programs Repository! This repository contains a collection of Java programs designed to help you learn and practice Java programming. Each program is organized by topic and includes explanations and comments to guide you through the code.
