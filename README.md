@@ -56,7 +56,7 @@ java-programs/
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/java-programs.git
+   git clone https://github.com/AryanKhokhar1/Java_Practice.git
    cd java-programs
    ```
 
